@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" >
+
+    
+</head>
+<body>
+
+  <span class="form" > 
+      <h1>Calculator</h1>
+     <label>Hindi : </label> <br>
+    <input type="number" id="id1" > <br>
+    <label>English : </label> <br>
+   <input type="number" id="id2" ><br>
+   <label>Maths : </label> <br>
+   <input type="number" id="id3" ><br>
+   <label>Science : </label> <br>
+   <input type="number" id="id4" ><br>
+   <label>Sociol Science : </label> <br>
+  <input type="number" id="id5" > <br>
+  <label>Art : </label> <br>
+  <input type="number" id="id6" ><br>
+  
+
+    <div id="div1" ></div>
+    <div id="div2" ></div> 
+
+
+    
+    
+    <input  type="reset"  value="Reset"class="reset"  onclick="sampleFunction()" >
+    <input type="submit" value="Calculate" class="reset" onclick="calculate()">
+
+</span>
+   
+  
+
+    <script>
+
+        function calculate() {
+
+            var a = parseInt(document.getElementById("id1").value);
+
+            var b = parseInt(document.getElementById("id2").value);
+
+            var c = parseInt(document.getElementById("id3").value);
+
+            var d = parseInt(document.getElementById("id4").value);
+
+            var e = parseInt(document.getElementById("id5").value);
+            var f = parseInt(document.getElementById("id6").value);
+
+            var obt = a+b+c+d+e+f;
+
+            var per = (obt/600)*100;
+
+
+            document.getElementById("div1").innerHTML="Your Total number is "+obt
+
+            document.getElementById("div2").innerHTML="Your percentage is "+per
+        }
+
+        function sampleFunction() {
+  location.reload();
+}
+
+
+      
+   
+
+    </script>
+
+
+   
+</html>

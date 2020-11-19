@@ -1,0 +1,53 @@
+* {
+            
+    background-color: rgb(155, 233, 243);
+    color: red;
+    font-size: 20px;
+   
+   
+}
+
+.reset {
+    background-color:blue;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    
+
+}
+.reset:hover {
+    background-color:green;
+    font-weight: bold;
+    color: white;
+
+}
+
+input {
+    background-color: rgb(26, 250, 6);
+    color: #000;
+}
+.form {
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid grey;
+    
+    
+   
+    
+}
+
+.form h1 {
+    font-size: 38px;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.form input {
+    margin: 5px;
+}
